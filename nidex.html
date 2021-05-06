@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Galaxy Wars 3D</title>
+		<style>
+			body { margin: 0; }
+canvas { width: 100%; height: 100% }
+#notes {
+  color: rgb(7, 7, 7);
+  font-family: "Fira Mono", Monaco, "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#health {
+  color: rgb(7, 7, 7);
+  font-family: "Fira Mono", Monaco, "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+#health2 {
+  color: rgb(7, 7, 7);
+  font-family: "Fira Mono", Monaco, "Andale Mono", "Lucida Console", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+		</style>
+	</head>
+	<body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js" integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg==" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+		<script src="https://unpkg.com/three@0.126.0/examples/jsm/controls/OrbitControls.js"></script>
+		<script src ="js/game.js"></script>
+			
+		</script>
+		<div id="notes" >Score : 0</div><br>
+		<div id="health" >Health : 0</div>
+		<div id="health2" >Enemy Health : 0</div>
+	</body>
+</html>
